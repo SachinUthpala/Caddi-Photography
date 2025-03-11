@@ -112,7 +112,8 @@ h4, h5, h6, .h4, .h5, .h6 {
 }
 
 .nav-bar.scrolled {
-    background: rgba(255, 255, 255, 0.97) !important;
+    background: rgba(255, 255, 255, 0.267) !important;
+    backdrop-filter: blur(20px); /* Adds blur effect */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
     transform: translateY(0) !important;
     opacity: 1 !important;
